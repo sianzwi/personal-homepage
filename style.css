@@ -15,24 +15,23 @@
 }
 
 :root {
-    --primary: #2563eb;
-    --secondary: #60a5fa;
-    --dark: #07111f;
-    --card: #101e32;
-    --light: #f8fafc;
-    --muted: #a5b4c8;
+    :root {
+    --primary: #a78bfa;
+    --secondary: #c4b5fd;
+    --dark: #18171c;
+    --card: #25232b;
+    --light: #fafafa;
+    --muted: #b7b3c0;
+}
 }
 
-body {
-    font-family: 'DM Sans', sans-serif;
-    background: var(--dark);
-    color: var(--light);
-    line-height: 1.8;
-    min-height: 100vh;
-    padding: 45px 20px;
+body {body {
+    background: #18171c;
     background-image:
-        radial-gradient(ellipse at 15% 10%, #15346a 0%, transparent 40%),
-        radial-gradient(ellipse at 90% 85%, #10294b 0%, transparent 40%);
+        radial-gradient(ellipse at 15% 10%, rgba(124, 58, 237, 0.22) 0%, transparent 42%),
+        radial-gradient(ellipse at 90% 85%, rgba(236, 72, 153, 0.12) 0%, transparent 40%);
+}
+    
 }
 
 /* MAIN SECTIONS */
