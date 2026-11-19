@@ -15,25 +15,21 @@
 }
 
 :root {
-    :root {
-    --primary: #a78bfa;
-    --secondary: #c4b5fd;
-    --dark: #18171c;
-    --card: #25232b;
-    --light: #fafafa;
-    --muted: #b7b3c0;
-}
+    --primary: #60a5fa;
+    --secondary: #93c5fd;
+    --dark: #07111f;
+    --card: #10233d;
+    --light: #f8fafc;
+    --muted: #b7c5d8;
 }
 
-body {body {
-     min-height: 100vh;
-    background-color: #18171c;
+body {
+    min-height: 100vh;
+    background-color: #07111f;
     background-image:
-        radial-gradient(ellipse at 15% 10%, rgba(124, 58, 237, 0.22) 0%, transparent 42%),
-        radial-gradient(ellipse at 90% 85%, rgba(236, 72, 153, 0.12) 0%, transparent 40%);
-    color: #fafafa;
-}
-    
+        radial-gradient(ellipse at 15% 10%, rgba(37, 99, 235, 0.22) 0%, transparent 42%),
+        radial-gradient(ellipse at 90% 85%, rgba(14, 165, 233, 0.12) 0%, transparent 40%);
+    color: #f8fafc;
 }
 
 /* MAIN SECTIONS */
@@ -45,8 +41,7 @@ section {
     border: 1px solid rgba(148, 163, 184, 0.15);
     border-radius: 20px;
     box-shadow: 0 15px 45px rgba(0, 0, 0, 0.25);
-    transition: transform 0.3s ease,
-                border-color 0.3s ease;
+    transition: transform 0.3s ease, border-color 0.3s ease;
     animation: appear 0.8s ease both;
 }
 
@@ -156,7 +151,6 @@ section:not(:first-of-type) {
         opacity: 0;
         transform: translateY(25px);
     }
-
     to {
         opacity: 1;
         transform: translateY(0);
@@ -179,7 +173,6 @@ section:not(:first-of-type) {
 
 /* MOBILE RESPONSIVENESS */
 @media (max-width: 650px) {
-
     body {
         padding: 15px 12px;
     }
